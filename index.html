@@ -1,91 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Laundry Wallah / Laundry Mart</title>
+    <meta charset="UTF-8">
+    <title>CSS Selectors Task</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Header Section -->
-    <h1>Welcome to Laundry Wallah / Laundry Mart</h1>
+    <div class="container">
 
-    <!-- About Section -->
-    <h2>About Us</h2>
-    <p>
-        Laundry Wallah / Laundry Mart is a trusted laundry service provider
-        dedicated to offering high-quality garment care. We provide washing,
-        drying, ironing, folding, and dry-cleaning services at affordable prices.
-        Our goal is to make laundry convenient and hassle-free for our customers.
-        With professional staff and modern equipment, we ensure that your clothes
-        receive the best care possible.
-    </p>
+        <h1 class="head">
+            This is a h1 heading with head as a class.
+        </h1>
 
-    <!-- Image Section -->
-    <h2>Our Laundry Service</h2>
-    <img src="https://images.unsplash.com/photo-1582735689369-4fe89db7114c?w=600"
-         alt="Laundry Service"
-         width="500">
+        <h2 class="head" id="bglime">
+            This is a h2 heading with <span>"head"</span> as a class and "bglime" as an id.
+        </h2>
 
-    <!-- Services Section -->
-    <h2>Our Services</h2>
-    <ul>
-        <li>Washing and Drying</li>
-        <li>Ironing and Folding</li>
-        <li>Dry Cleaning</li>
-        <li>Stain Removal</li>
-        <li>Express Services</li>
-        <li>Special Garment Care</li>
-    </ul>
+        <h4 class="head">
+            This is a h4 heading with head as a class.
+        </h4>
 
-    <!-- Price List Section -->
-    <h2>Price List</h2>
-
-    <table border="1" cellpadding="10">
-        <tr>
-            <th>Service</th>
-            <th>Price (Rs.)</th>
-        </tr>
-        <tr>
-            <td>Washing and Drying</td>
-            <td>100</td>
-        </tr>
-        <tr>
-            <td>Ironing and Folding</td>
-            <td>50</td>
-        </tr>
-        <tr>
-            <td>Dry Cleaning</td>
-            <td>150</td>
-        </tr>
-        <tr>
-            <td>Stain Removal</td>
-            <td>80</td>
-        </tr>
-    </table>
-
-    <!-- Book Now Section -->
-    <h2>Book Now</h2>
-
-    <form>
-        <label>Name:</label><br>
-        <input type="text" required>
-
-        <label>Email:</label>
-        <input type="email" required>
-
-        <label>Phone:</label>
-        <input type="tel" required>
-
-        <input type="submit" value="Submit">
-    </form>
-
-    <!-- Footer Section -->
-    <hr>
-    <footer>
         <p>
-            Contact us at:
-            info@laundrymart.com
+            This is a p paragraph tag without any id or class styled using "p" element selector
         </p>
-    </footer>
+
+        <p id="para">
+            This is a p paragraph tag with para as an id
+        </p>
+
+        <p>
+            This is a p paragraph tag without any id or class styled using "p" element selector
+        </p>
+
+        <h3>
+            Show this output without inline CSS nor using class or id for "a" tag.
+        </h3>
+
+        <ul>
+            <li>Click <a href="#">here</a> to go to UpSkillMafia</li>
+            <li>Click <a href="#">here</a> to go to Google</li>
+        </ul>
+
+        <ol>
+            <li>This is li tag without any id or class</li>
+            <li>This is li tag without any id or class and its in blue colour</li>
+            <li>This is li tag without any id or class and is in red colour</li>
+            <li>This is li tag without any id or class</li>
+            <li>This is li tag without any id or class</li>
+        </ol>
+
+    </div>
 
 </body>
 </html>
