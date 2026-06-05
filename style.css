@@ -1,0 +1,50 @@
+body{
+    background-color: lightgray;
+}
+
+.container{
+    background-color: coral;
+    border: 4px solid black;
+    padding: 10px;
+    margin: 20px;
+}
+
+/* Head Class */
+.head{
+    color: blue;
+}
+
+h2 span{
+    color: red;
+}
+
+/* H2 Background */
+#bglime{
+    background-color: lightgreen;
+    color: blue;
+}
+
+/* Paragraphs */
+p{
+    color: white;
+    font-size: 28px;
+}
+
+/* Second Paragraph */
+#para{
+    color: green;
+}
+
+/* Links without using class/id */
+a{
+    color: yellow;
+}
+
+/* Ordered List Styling */
+ol li:nth-child(2){
+    color: blue;
+}
+
+ol li:nth-child(3){
+    color: red;
+}
